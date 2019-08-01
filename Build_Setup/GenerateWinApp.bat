@@ -9,3 +9,6 @@ timeout 2
 
 rem build the project
 python.exe setup.py build
+
+rem Wait 2 sec to show to the user that windows application generated
+timeout 5
